@@ -12,6 +12,15 @@
 		F03D2A071DFC9BCF006ACFE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03D2A051DFC9BCF006ACFE4 /* Main.storyboard */; };
 		F03D2A091DFC9BCF006ACFE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03D2A081DFC9BCF006ACFE4 /* Assets.xcassets */; };
 		F03D2A0C1DFC9BCF006ACFE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03D2A0A1DFC9BCF006ACFE4 /* LaunchScreen.storyboard */; };
+		F03D2A141DFC9C29006ACFE4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D2A131DFC9C29006ACFE4 /* FirstViewController.swift */; };
+		F03D2A161DFC9C5D006ACFE4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D2A151DFC9C5D006ACFE4 /* SecondViewController.swift */; };
+		F03D2A181DFC9C84006ACFE4 /* TerceraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D2A171DFC9C83006ACFE4 /* TerceraViewController.swift */; };
+		F03D2A1A1DFC9CAB006ACFE4 /* CuartaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D2A191DFC9CAB006ACFE4 /* CuartaViewController.swift */; };
+		F03D2A1C1DFC9CD6006ACFE4 /* ConfirmacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D2A1B1DFC9CD6006ACFE4 /* ConfirmacionViewController.swift */; };
+		F03D2A1E1DFC9DAE006ACFE4 /* checkBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D2A1D1DFC9DAE006ACFE4 /* checkBox.swift */; };
+		F03D2A201DFC9DE7006ACFE4 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D2A1F1DFC9DE7006ACFE4 /* Pizza.swift */; };
+		F03D2A221DFC9E0F006ACFE4 /* IngredientesCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D2A211DFC9E0F006ACFE4 /* IngredientesCellTableViewCell.swift */; };
+		F03D2A241DFC9F26006ACFE4 /* pizza_comer.gif in Resources */ = {isa = PBXBuildFile; fileRef = F03D2A231DFC9F26006ACFE4 /* pizza_comer.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		F03D2A081DFC9BCF006ACFE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F03D2A0B1DFC9BCF006ACFE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F03D2A0D1DFC9BCF006ACFE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03D2A131DFC9C29006ACFE4 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F03D2A151DFC9C5D006ACFE4 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F03D2A171DFC9C83006ACFE4 /* TerceraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerceraViewController.swift; sourceTree = "<group>"; };
+		F03D2A191DFC9CAB006ACFE4 /* CuartaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuartaViewController.swift; sourceTree = "<group>"; };
+		F03D2A1B1DFC9CD6006ACFE4 /* ConfirmacionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionViewController.swift; sourceTree = "<group>"; };
+		F03D2A1D1DFC9DAE006ACFE4 /* checkBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkBox.swift; sourceTree = "<group>"; };
+		F03D2A1F1DFC9DE7006ACFE4 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		F03D2A211DFC9E0F006ACFE4 /* IngredientesCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesCellTableViewCell.swift; sourceTree = "<group>"; };
+		F03D2A231DFC9F26006ACFE4 /* pizza_comer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = pizza_comer.gif; path = ../../pizza_comer.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +72,21 @@
 		F03D2A001DFC9BCF006ACFE4 /* RicaPizza */ = {
 			isa = PBXGroup;
 			children = (
+				F03D2A231DFC9F26006ACFE4 /* pizza_comer.gif */,
 				F03D2A011DFC9BCF006ACFE4 /* AppDelegate.swift */,
 				F03D2A031DFC9BCF006ACFE4 /* ViewController.swift */,
 				F03D2A051DFC9BCF006ACFE4 /* Main.storyboard */,
 				F03D2A081DFC9BCF006ACFE4 /* Assets.xcassets */,
 				F03D2A0A1DFC9BCF006ACFE4 /* LaunchScreen.storyboard */,
 				F03D2A0D1DFC9BCF006ACFE4 /* Info.plist */,
+				F03D2A131DFC9C29006ACFE4 /* FirstViewController.swift */,
+				F03D2A1D1DFC9DAE006ACFE4 /* checkBox.swift */,
+				F03D2A1F1DFC9DE7006ACFE4 /* Pizza.swift */,
+				F03D2A151DFC9C5D006ACFE4 /* SecondViewController.swift */,
+				F03D2A171DFC9C83006ACFE4 /* TerceraViewController.swift */,
+				F03D2A191DFC9CAB006ACFE4 /* CuartaViewController.swift */,
+				F03D2A1B1DFC9CD6006ACFE4 /* ConfirmacionViewController.swift */,
+				F03D2A211DFC9E0F006ACFE4 /* IngredientesCellTableViewCell.swift */,
 			);
 			path = RicaPizza;
 			sourceTree = "<group>";
@@ -126,6 +153,7 @@
 			files = (
 				F03D2A0C1DFC9BCF006ACFE4 /* LaunchScreen.storyboard in Resources */,
 				F03D2A091DFC9BCF006ACFE4 /* Assets.xcassets in Resources */,
+				F03D2A241DFC9F26006ACFE4 /* pizza_comer.gif in Resources */,
 				F03D2A071DFC9BCF006ACFE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03D2A221DFC9E0F006ACFE4 /* IngredientesCellTableViewCell.swift in Sources */,
+				F03D2A1E1DFC9DAE006ACFE4 /* checkBox.swift in Sources */,
+				F03D2A181DFC9C84006ACFE4 /* TerceraViewController.swift in Sources */,
+				F03D2A201DFC9DE7006ACFE4 /* Pizza.swift in Sources */,
+				F03D2A161DFC9C5D006ACFE4 /* SecondViewController.swift in Sources */,
+				F03D2A1C1DFC9CD6006ACFE4 /* ConfirmacionViewController.swift in Sources */,
+				F03D2A1A1DFC9CAB006ACFE4 /* CuartaViewController.swift in Sources */,
+				F03D2A141DFC9C29006ACFE4 /* FirstViewController.swift in Sources */,
 				F03D2A041DFC9BCF006ACFE4 /* ViewController.swift in Sources */,
 				F03D2A021DFC9BCF006ACFE4 /* AppDelegate.swift in Sources */,
 			);
