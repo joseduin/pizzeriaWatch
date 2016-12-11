@@ -598,11 +598,11 @@
                                         <rect key="frame" x="0.0" y="28" width="309" height="27"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sa9-AJ-HT4" id="igb-of-Rky">
-                                            <rect key="frame" x="0.0" y="0.0" width="309" height="26"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="309" height="27"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t47-Gf-Zh9">
-                                                    <rect key="frame" x="0.0" y="0.0" width="309" height="21"/>
+                                                    <rect key="frame" x="-1" y="0.0" width="310" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -665,8 +665,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="pizza_comer.gif" translatesAutoresizingMaskIntoConstraints="NO" id="dBV-g7-6bO">
-                                <rect key="frame" x="37" y="211" width="300" height="300"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="pizza_size" translatesAutoresizingMaskIntoConstraints="NO" id="s9V-Or-CTw">
+                                <rect key="frame" x="16" y="190" width="343" height="287"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                             </imageView>
                         </subviews>
@@ -797,7 +797,6 @@
         <image name="peperoni" width="200" height="200"/>
         <image name="pimiento" width="512" height="512"/>
         <image name="pina" width="512" height="512"/>
-        <image name="pizza_comer.gif" width="300" height="300"/>
         <image name="pizza_crujiente" width="462" height="134"/>
         <image name="pizza_delgada" width="462" height="134"/>
         <image name="pizza_gruesa" width="462" height="134"/>
