@@ -666,7 +666,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="pizza_size" translatesAutoresizingMaskIntoConstraints="NO" id="s9V-Or-CTw">
-                                <rect key="frame" x="16" y="190" width="343" height="287"/>
+                                <rect key="frame" x="16" y="190" width="343" height="295"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                             </imageView>
                         </subviews>
