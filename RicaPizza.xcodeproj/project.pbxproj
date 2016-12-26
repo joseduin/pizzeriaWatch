@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F01762331E103BF100C5D3CD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01762311E103BF100C5D3CD /* Interface.storyboard */; };
+		F01762351E103BF100C5D3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01762341E103BF100C5D3CD /* Assets.xcassets */; };
+		F017623C1E103BF200C5D3CD /* RicaPizzaWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F017623B1E103BF200C5D3CD /* RicaPizzaWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F01762431E103BF300C5D3CD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01762421E103BF300C5D3CD /* InterfaceController.swift */; };
+		F01762451E103BF300C5D3CD /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01762441E103BF300C5D3CD /* ExtensionDelegate.swift */; };
+		F01762471E103BF300C5D3CD /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01762461E103BF300C5D3CD /* NotificationController.swift */; };
+		F01762491E103BF300C5D3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01762481E103BF300C5D3CD /* Assets.xcassets */; };
+		F017624D1E103BF300C5D3CD /* RicaPizzaWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F017622F1E103BF000C5D3CD /* RicaPizzaWatch.app */; };
+		F01762571E103F7400C5D3CD /* PizzaOrden.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01762561E103F7400C5D3CD /* PizzaOrden.swift */; };
+		F01762591E10404F00C5D3CD /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01762581E10404F00C5D3CD /* Pizza.swift */; };
+		F017625B1E10542600C5D3CD /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F017625A1E10542600C5D3CD /* SecondController.swift */; };
+		F017625D1E10543D00C5D3CD /* TerceraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F017625C1E10543D00C5D3CD /* TerceraController.swift */; };
+		F017625F1E10545100C5D3CD /* CuartaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F017625E1E10545100C5D3CD /* CuartaController.swift */; };
+		F01762611E10546600C5D3CD /* ConfirmacionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01762601E10546600C5D3CD /* ConfirmacionController.swift */; };
+		F01762631E106F6C00C5D3CD /* BuenProvechoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01762621E106F6B00C5D3CD /* BuenProvechoController.swift */; };
+		F01762651E1070E700C5D3CD /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01762641E1070E700C5D3CD /* Ingredientes.swift */; };
 		F03D2A021DFC9BCF006ACFE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D2A011DFC9BCF006ACFE4 /* AppDelegate.swift */; };
 		F03D2A041DFC9BCF006ACFE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D2A031DFC9BCF006ACFE4 /* ViewController.swift */; };
 		F03D2A071DFC9BCF006ACFE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03D2A051DFC9BCF006ACFE4 /* Main.storyboard */; };
@@ -20,10 +36,70 @@
 		F03D2A1E1DFC9DAE006ACFE4 /* checkBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D2A1D1DFC9DAE006ACFE4 /* checkBox.swift */; };
 		F03D2A201DFC9DE7006ACFE4 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D2A1F1DFC9DE7006ACFE4 /* Pizza.swift */; };
 		F03D2A221DFC9E0F006ACFE4 /* IngredientesCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03D2A211DFC9E0F006ACFE4 /* IngredientesCellTableViewCell.swift */; };
-		F03D2A241DFC9F26006ACFE4 /* pizza_comer.gif in Resources */ = {isa = PBXBuildFile; fileRef = F03D2A231DFC9F26006ACFE4 /* pizza_comer.gif */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F017623D1E103BF200C5D3CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03D29F61DFC9BCF006ACFE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F017623A1E103BF200C5D3CD;
+			remoteInfo = "RicaPizzaWatch Extension";
+		};
+		F017624B1E103BF300C5D3CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03D29F61DFC9BCF006ACFE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F017622E1E103BF000C5D3CD;
+			remoteInfo = RicaPizzaWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F01762531E103BF300C5D3CD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F017623C1E103BF200C5D3CD /* RicaPizzaWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01762551E103BF300C5D3CD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F017624D1E103BF300C5D3CD /* RicaPizzaWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F017622F1E103BF000C5D3CD /* RicaPizzaWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RicaPizzaWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01762321E103BF100C5D3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F01762341E103BF100C5D3CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F01762361E103BF100C5D3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F017623B1E103BF200C5D3CD /* RicaPizzaWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RicaPizzaWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01762411E103BF300C5D3CD /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F01762421E103BF300C5D3CD /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F01762441E103BF300C5D3CD /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F01762461E103BF300C5D3CD /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F01762481E103BF300C5D3CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F017624A1E103BF300C5D3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01762561E103F7400C5D3CD /* PizzaOrden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaOrden.swift; sourceTree = "<group>"; };
+		F01762581E10404F00C5D3CD /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		F017625A1E10542600C5D3CD /* SecondController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
+		F017625C1E10543D00C5D3CD /* TerceraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerceraController.swift; sourceTree = "<group>"; };
+		F017625E1E10545100C5D3CD /* CuartaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuartaController.swift; sourceTree = "<group>"; };
+		F01762601E10546600C5D3CD /* ConfirmacionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionController.swift; sourceTree = "<group>"; };
+		F01762621E106F6B00C5D3CD /* BuenProvechoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuenProvechoController.swift; sourceTree = "<group>"; };
+		F01762641E1070E700C5D3CD /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
 		F03D29FE1DFC9BCF006ACFE4 /* RicaPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RicaPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03D2A011DFC9BCF006ACFE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F03D2A031DFC9BCF006ACFE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,10 +115,16 @@
 		F03D2A1D1DFC9DAE006ACFE4 /* checkBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkBox.swift; sourceTree = "<group>"; };
 		F03D2A1F1DFC9DE7006ACFE4 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		F03D2A211DFC9E0F006ACFE4 /* IngredientesCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesCellTableViewCell.swift; sourceTree = "<group>"; };
-		F03D2A231DFC9F26006ACFE4 /* pizza_comer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = pizza_comer.gif; path = ../../pizza_comer.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F01762381E103BF200C5D3CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F03D29FB1DFC9BCF006ACFE4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,10 +135,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F01762301E103BF100C5D3CD /* RicaPizzaWatch */ = {
+			isa = PBXGroup;
+			children = (
+				F01762311E103BF100C5D3CD /* Interface.storyboard */,
+				F01762341E103BF100C5D3CD /* Assets.xcassets */,
+				F01762361E103BF100C5D3CD /* Info.plist */,
+			);
+			path = RicaPizzaWatch;
+			sourceTree = "<group>";
+		};
+		F017623F1E103BF300C5D3CD /* RicaPizzaWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F01762421E103BF300C5D3CD /* InterfaceController.swift */,
+				F017625A1E10542600C5D3CD /* SecondController.swift */,
+				F017625C1E10543D00C5D3CD /* TerceraController.swift */,
+				F017625E1E10545100C5D3CD /* CuartaController.swift */,
+				F01762601E10546600C5D3CD /* ConfirmacionController.swift */,
+				F01762621E106F6B00C5D3CD /* BuenProvechoController.swift */,
+				F01762561E103F7400C5D3CD /* PizzaOrden.swift */,
+				F01762641E1070E700C5D3CD /* Ingredientes.swift */,
+				F01762581E10404F00C5D3CD /* Pizza.swift */,
+				F01762441E103BF300C5D3CD /* ExtensionDelegate.swift */,
+				F01762461E103BF300C5D3CD /* NotificationController.swift */,
+				F01762481E103BF300C5D3CD /* Assets.xcassets */,
+				F017624A1E103BF300C5D3CD /* Info.plist */,
+				F01762401E103BF300C5D3CD /* Supporting Files */,
+			);
+			path = "RicaPizzaWatch Extension";
+			sourceTree = "<group>";
+		};
+		F01762401E103BF300C5D3CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F01762411E103BF300C5D3CD /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		F03D29F51DFC9BCF006ACFE4 = {
 			isa = PBXGroup;
 			children = (
 				F03D2A001DFC9BCF006ACFE4 /* RicaPizza */,
+				F01762301E103BF100C5D3CD /* RicaPizzaWatch */,
+				F017623F1E103BF300C5D3CD /* RicaPizzaWatch Extension */,
 				F03D29FF1DFC9BCF006ACFE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				F03D29FE1DFC9BCF006ACFE4 /* RicaPizza.app */,
+				F017622F1E103BF000C5D3CD /* RicaPizzaWatch.app */,
+				F017623B1E103BF200C5D3CD /* RicaPizzaWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,7 +197,6 @@
 		F03D2A001DFC9BCF006ACFE4 /* RicaPizza */ = {
 			isa = PBXGroup;
 			children = (
-				F03D2A231DFC9F26006ACFE4 /* pizza_comer.gif */,
 				F03D2A011DFC9BCF006ACFE4 /* AppDelegate.swift */,
 				F03D2A031DFC9BCF006ACFE4 /* ViewController.swift */,
 				F03D2A051DFC9BCF006ACFE4 /* Main.storyboard */,
@@ -94,6 +218,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F017622E1E103BF000C5D3CD /* RicaPizzaWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01762541E103BF300C5D3CD /* Build configuration list for PBXNativeTarget "RicaPizzaWatch" */;
+			buildPhases = (
+				F017622D1E103BF000C5D3CD /* Resources */,
+				F01762531E103BF300C5D3CD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F017623E1E103BF200C5D3CD /* PBXTargetDependency */,
+			);
+			name = RicaPizzaWatch;
+			productName = RicaPizzaWatch;
+			productReference = F017622F1E103BF000C5D3CD /* RicaPizzaWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F017623A1E103BF200C5D3CD /* RicaPizzaWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01762521E103BF300C5D3CD /* Build configuration list for PBXNativeTarget "RicaPizzaWatch Extension" */;
+			buildPhases = (
+				F01762371E103BF200C5D3CD /* Sources */,
+				F01762381E103BF200C5D3CD /* Frameworks */,
+				F01762391E103BF200C5D3CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RicaPizzaWatch Extension";
+			productName = "RicaPizzaWatch Extension";
+			productReference = F017623B1E103BF200C5D3CD /* RicaPizzaWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		F03D29FD1DFC9BCF006ACFE4 /* RicaPizza */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F03D2A101DFC9BCF006ACFE4 /* Build configuration list for PBXNativeTarget "RicaPizza" */;
@@ -101,10 +259,12 @@
 				F03D29FA1DFC9BCF006ACFE4 /* Sources */,
 				F03D29FB1DFC9BCF006ACFE4 /* Frameworks */,
 				F03D29FC1DFC9BCF006ACFE4 /* Resources */,
+				F01762551E103BF300C5D3CD /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F017624C1E103BF300C5D3CD /* PBXTargetDependency */,
 			);
 			name = RicaPizza;
 			productName = RicaPizza;
@@ -121,6 +281,16 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Jose Duin";
 				TargetAttributes = {
+					F017622E1E103BF000C5D3CD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U5DM44JQS9;
+						ProvisioningStyle = Automatic;
+					};
+					F017623A1E103BF200C5D3CD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U5DM44JQS9;
+						ProvisioningStyle = Automatic;
+					};
 					F03D29FD1DFC9BCF006ACFE4 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = U5DM44JQS9;
@@ -142,18 +312,36 @@
 			projectRoot = "";
 			targets = (
 				F03D29FD1DFC9BCF006ACFE4 /* RicaPizza */,
+				F017622E1E103BF000C5D3CD /* RicaPizzaWatch */,
+				F017623A1E103BF200C5D3CD /* RicaPizzaWatch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F017622D1E103BF000C5D3CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01762351E103BF100C5D3CD /* Assets.xcassets in Resources */,
+				F01762331E103BF100C5D3CD /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01762391E103BF200C5D3CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01762491E103BF300C5D3CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F03D29FC1DFC9BCF006ACFE4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F03D2A0C1DFC9BCF006ACFE4 /* LaunchScreen.storyboard in Resources */,
 				F03D2A091DFC9BCF006ACFE4 /* Assets.xcassets in Resources */,
-				F03D2A241DFC9F26006ACFE4 /* pizza_comer.gif in Resources */,
 				F03D2A071DFC9BCF006ACFE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,6 +349,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F01762371E103BF200C5D3CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01762471E103BF300C5D3CD /* NotificationController.swift in Sources */,
+				F01762571E103F7400C5D3CD /* PizzaOrden.swift in Sources */,
+				F01762611E10546600C5D3CD /* ConfirmacionController.swift in Sources */,
+				F01762451E103BF300C5D3CD /* ExtensionDelegate.swift in Sources */,
+				F017625B1E10542600C5D3CD /* SecondController.swift in Sources */,
+				F01762651E1070E700C5D3CD /* Ingredientes.swift in Sources */,
+				F01762631E106F6C00C5D3CD /* BuenProvechoController.swift in Sources */,
+				F01762591E10404F00C5D3CD /* Pizza.swift in Sources */,
+				F017625F1E10545100C5D3CD /* CuartaController.swift in Sources */,
+				F017625D1E10543D00C5D3CD /* TerceraController.swift in Sources */,
+				F01762431E103BF300C5D3CD /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F03D29FA1DFC9BCF006ACFE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -180,7 +386,28 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F017623E1E103BF200C5D3CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F017623A1E103BF200C5D3CD /* RicaPizzaWatch Extension */;
+			targetProxy = F017623D1E103BF200C5D3CD /* PBXContainerItemProxy */;
+		};
+		F017624C1E103BF300C5D3CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F017622E1E103BF000C5D3CD /* RicaPizzaWatch */;
+			targetProxy = F017624B1E103BF300C5D3CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		F01762311E103BF100C5D3CD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F01762321E103BF100C5D3CD /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		F03D2A051DFC9BCF006ACFE4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -200,6 +427,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F017624E1E103BF300C5D3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U5DM44JQS9;
+				IBSC_MODULE = RicaPizzaWatch_Extension;
+				INFOPLIST_FILE = RicaPizzaWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = coursera.RicaPizza.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		F017624F1E103BF300C5D3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U5DM44JQS9;
+				IBSC_MODULE = RicaPizzaWatch_Extension;
+				INFOPLIST_FILE = RicaPizzaWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = coursera.RicaPizza.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		F01762501E103BF300C5D3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = U5DM44JQS9;
+				INFOPLIST_FILE = "RicaPizzaWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coursera.RicaPizza.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		F01762511E103BF300C5D3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = U5DM44JQS9;
+				INFOPLIST_FILE = "RicaPizzaWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coursera.RicaPizza.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
 		F03D2A0E1DFC9BCF006ACFE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -320,6 +617,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F01762521E103BF300C5D3CD /* Build configuration list for PBXNativeTarget "RicaPizzaWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01762501E103BF300C5D3CD /* Debug */,
+				F01762511E103BF300C5D3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F01762541E103BF300C5D3CD /* Build configuration list for PBXNativeTarget "RicaPizzaWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F017624E1E103BF300C5D3CD /* Debug */,
+				F017624F1E103BF300C5D3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F03D29F91DFC9BCF006ACFE4 /* Build configuration list for PBXProject "RicaPizza" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -336,6 +649,7 @@
 				F03D2A121DFC9BCF006ACFE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
